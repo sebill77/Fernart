@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 6rem;
+}
+
+.copy {
+    width: 10rem;
+}
+
+.footer {
+    margin-top: 10.7rem;
+}
