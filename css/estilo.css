@@ -21,7 +21,7 @@
   }
 
   .fondo_img {
-    background-image: url(../picture/bacground.jpg);
+    background-image: url(../assets/picture/fondo_Mesa\ de\ trabajo\ 1.jpg);
     background-position-x: 50%;
     height: 50rem;
     background-repeat: no-repeat;
@@ -30,7 +30,7 @@
 }
 
 .fondo_img {
-  background-image: url(../picture/fondo_Mesa\ de\ trabajo\ 1.jpg);
+  background-image: url(../assets/picture/fondo_Mesa\ de\ trabajo\ 1.jpg);
   height: 50rem;
   background-repeat: no-repeat;
   background-size: cover;
