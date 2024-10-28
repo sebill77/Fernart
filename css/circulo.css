@@ -1,12 +1,61 @@
 .circulo{
-    margin-top: 24rem;
-    margin-left: 50rem;
+    margin-top: 13rem;
+    margin-left: 37rem;
     width: 10rem;
     height: 10rem;
     border-radius: 50%;
     border: 1.5rem solid #ffe600c5;
     animation: circulo 0.7s infinite;
+    position: absolute;
+    z-index: 2;
 }
+.circulo2{
+    margin-top: 10rem;
+    margin-left: 26rem;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    border: 1.5rem solid #ffe600c5;
+    animation: circulo 0.7s infinite;
+    position: absolute;
+    z-index: 2;
+}
+
+
+.circulo3{
+    margin-top: 10rem;
+    margin-left: 8rem;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    border: 1.5rem solid #ffe600c5;
+    animation: circulo 0.7s infinite;
+    position: absolute;
+    z-index: 2;
+}
+.circulo4{
+    margin-top: 10rem;
+    margin-left: 26rem;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    border: 1.5rem solid #ffe600c5;
+    animation: circulo 0.7s infinite;
+    position: absolute;
+    z-index: 2;
+}
+.circulo5{
+    margin-top: 1rem;
+    margin-left: 56rem;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    border: 1.5rem solid #ffe600c5;
+    animation: circulo 0.7s infinite;
+    position: absolute;
+    z-index: 2;
+}
+
 
 @keyframes circulo {
     0%{
