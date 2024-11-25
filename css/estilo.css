@@ -27,6 +27,14 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+  .caja-transparente {
+    width: 25rem;
+    height: 22rem;
+    margin-top: 12rem;
+    background-color: #000000a6;
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .fondo_img {

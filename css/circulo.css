@@ -1,12 +1,19 @@
 .circulo{
-    margin-top: 24rem;
-    margin-left: 50rem;
+    position: absolute;
+    margin-top: 12rem;
+    margin-left: 32rem;
     width: 10rem;
     height: 10rem;
     border-radius: 50%;
     border: 1.5rem solid #ffe600c5;
     animation: circulo 0.7s infinite;
+    z-index: 1;
 }
+
+.escondericono{
+    display: none;
+}
+
 
 @keyframes circulo {
     0%{
@@ -20,3 +27,51 @@
         transform: scale(1.2);
     }
 }
+/* animacion 2 imagenes */
+/* .pito2{
+    width: 20rem;
+    height: 20rem;
+    position: absolute;
+    animation: imagenn 0.7s infinite;
+}
+.pito{
+    width: 20rem;
+    height: 20rem;
+    position: absolute;
+    animation: imagenn1  0.7s infinite;
+}
+
+.imagen{
+margin-top: 24rem;
+    margin-left: 50rem;
+}
+.imagen2
+{
+    margin-top: 24rem;
+    margin-left: 50rem;
+}
+/* animacion 1 */
+@keyframes imagenn {
+    0%{
+        transform: scale(1.2);
+    }
+    50%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}
+/* animacion 2 */
+@keyframes imagenn1 {
+    0%{
+        transform: scale(1.2);
+    }
+    50%{
+        transform: scale(1);
+        opacity: .100;
+    }
+    100%{
+        transform: scale(1.2);
+    }
+} 

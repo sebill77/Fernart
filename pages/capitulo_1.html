@@ -14,10 +14,11 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/capitulo-select.css">
+    <link rel="stylesheet" href="../boostrap/bootstrap.css">
+    <link rel="stylesheet" href="../css/selector_de_capitulos.css">
     <link rel="stylesheet" href="../css/capitulo_1.css">
     <link rel="stylesheet" href="../css/capitulo_2.css">
+    <link rel="stylesheet" href="../css/circulo.css">
     <title>Fernart</title>
   </head>
 
@@ -48,18 +49,40 @@
         </nav>
       </div>
       <!-- capitulo -->
+       <!-- suiguiente capitulo -->
+       <div class="row d-flex justify-content-center align-items-center" id="proyecto">
+        <div class="col-lg-9 d-flex justify-content-between align-items-end p-3 ">
+          <h3 class="fw-bold tx-bg-ocre">Volver a los capitulos</h3>
+          <h3 class="fw-bold tx-bg-ocre">Siguiente capitulo</h3>
+        </div>
+        <div class="col-lg-4 d-flex justify-content-center align-items-center   ">
+            <img src="./assets/picture/perspectiva de 2 puntos_2_Mesa de trabajo 1.jpg" alt="" class="layer2">
+        </div>
+    </div>
+        <!-- capitulo slider -->
       <div class="row d-flex justify-content-center align-items-center m-5">
         <div class="col-lg-8">
           <div id="carouselExampleIndicators" class="carousel slide">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <div class="fondo">
+                <div class="circulo"></div>
+                <video id="My-video1">
+                  <source src="../assets/video/animcion final ana.mp4">
+                </video>
+              </div>
+              <div class="carousel-item ">
+                <div class="circulo"></div>
+                <video id="My-video">
+                  <source src="../assets/video/animcion final ana2.mp4">
+                </video>
+              </div>
+              <div class="carousel-item ">
+                <video id="My-video">
+                  <source src="../assets/video/animcion final ana3.mp4">
+                </video>
+              </div>
+              <div class="carousel-item ">
+                <!-- <div class="fondo">
                   <img src="../assets/img/genesis_Mesa de trabajo 1.png" alt="" class="genesisescena2">
                   <img src="../assets/img/cama_Mesa de trabajo 1.png" alt="" class="camaescena1">
                   <img src="../assets/img/juan.png" alt="" class="nino">
@@ -71,51 +94,68 @@
                   <div class="oculto">
                     <img src="../assets/img/dialogo1_Mesa de trabajo 1.png" alt="" class="oculto2">
                   </div>
-                </div>
+                </div> -->
+                <video id="My-video">
+                  <source src="../assets/video/animacion escena 4.mp4">
+                </video>
               </div>
               <!-- escena 2 -->
               <div class="carousel-item">
-                <div class="fondo2">
+                <!-- <div class="fondo2">
                   <img src="../assets/img/img2/juan.png" class="JUAN2">
                   <img src="../assets/img/img2//PIES LIBRO MANOS-01-01.png" class="PIESS">
                   <img src="../assets/img/img2/MANOS.png" alt="" class="MANOS">
                   <img src="../assets/img/img2/icono.png" alt="" class="icono">
-                  <!--  -->
+                  
                   <div class="esconde1">
                     <img src="../assets/img/img2/dialogooo 2.png" alt="" class="dialogos1">
                   </div>
                   <div class="esconde2">
                     <img src="../assets/img/img2/dialogooo1.png" alt="" class="dialogos2">
                   </div>
-                </div>
+                </div> -->
+                <video id="My-video">
+                  <source src="../assets/video/animacion escena 5.mp4">
+                </video>
+              </div>
+              <!-- ESCENA 3 -->
+              <div class="carousel-item">
+                <video id="My-video">
+                  <source src="../assets/video/animacion escena 6.mp4">
+                </video>
               </div>
               <!-- botones de movimiento -->
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-              data-bs-slide="prev">
+            <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"> -->
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
             </button>
+            <!-- next botton -->
             <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
               data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="carousel-control-next-icon" aria-hidden="true" id="btnAdd"></span>
               <span class="visually-hidden">Next</span>
             </button>
           </div>
         </div>
       </div>
       <!-- footer -->
-      <footer class="row bg-dark footer">
+      <footer class="row bg-dark footer2">
         <div class="col d-flex justify-content-center align-items-center">
           <img src="../assets/picture/Copyright-Symbol-PNG-Picture.png" alt="" class="copy p-2">
         </div>
       </footer>
+      <h1 id="num">
+        0
+      </h1>
     </div>
   </body>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="../js/capitulo_1.js"></script>
-  <script src="../js/capitulo_2.js"></script>
-  <script src="../js/app.js"></script>
+  <script src="../boostrap/bootstrap.js"></script>
+  <script src="../js/cap_1.js"></script>
+  <!-- <script src="../js/capitulo_1.js"></script> -->
+  <!-- <script src="../js/capitulo_2.js"></script> -->
   </html>
 </body>
+
 </html>
