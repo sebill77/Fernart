@@ -114,3 +114,12 @@ video{
     width: 100%;
     height: 58.6vh;
 }
+
+.carousel-control-next{
+    height: 10% !important;
+    margin-top: 23% !important;
+}
+.carousel-control-prev{
+    height: 10% !important;
+    margin-top: 23% !important;
+}

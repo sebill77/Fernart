@@ -1,23 +1,13 @@
-.circulo{
-<<<<<<< HEAD
+.circulo1{
     position: absolute;
-    margin-top: 12rem;
-    margin-left: 32rem;
-=======
-    margin-top: 13rem;
-    margin-left: 37rem;
->>>>>>> 54bdca2db3cc3555e489ba69283379dc8769de54
+    margin-top: 18%;
+    margin-left: 42%;
     width: 10rem;
     height: 10rem;
     border-radius: 50%;
     border: 1.5rem solid #ffe600c5;
     animation: circulo 0.7s infinite;
-<<<<<<< HEAD
     z-index: 1;
-=======
-    position: absolute;
-    z-index: 2;
->>>>>>> 54bdca2db3cc3555e489ba69283379dc8769de54
 }
 .circulo2{
     margin-top: 10rem;
@@ -28,20 +18,19 @@
     border: 1.5rem solid #ffe600c5;
     animation: circulo 0.7s infinite;
     position: absolute;
-    z-index: 2;
+    z-index: 1;
 }
-
 
 .circulo3{
     margin-top: 10rem;
-    margin-left: 8rem;
+    margin-left: 26rem;
     width: 10rem;
     height: 10rem;
     border-radius: 50%;
     border: 1.5rem solid #ffe600c5;
     animation: circulo 0.7s infinite;
     position: absolute;
-    z-index: 2;
+    z-index: 1;
 }
 .circulo4{
     margin-top: 10rem;
@@ -52,20 +41,30 @@
     border: 1.5rem solid #ffe600c5;
     animation: circulo 0.7s infinite;
     position: absolute;
-    z-index: 2;
+    z-index: 1;
 }
 .circulo5{
-    margin-top: 1rem;
-    margin-left: 56rem;
+    margin-top: 10rem;
+    margin-left: 26rem;
     width: 10rem;
     height: 10rem;
     border-radius: 50%;
     border: 1.5rem solid #ffe600c5;
     animation: circulo 0.7s infinite;
     position: absolute;
-    z-index: 2;
+    z-index: 1;
 }
-
+.circulo6{
+    margin-top: 10rem;
+    margin-left: 26rem;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    border: 1.5rem solid #ffe600c5;
+    animation: circulo 0.7s infinite;
+    position: absolute;
+    z-index: 1;
+}
 
 .escondericono{
     display: none;
