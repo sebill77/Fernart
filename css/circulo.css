@@ -8,6 +8,7 @@
     border: 1.5rem solid #ffe600c5;
     animation: circulo 0.7s infinite;
     z-index: 1;
+    cursor: pointer;
 }
 .circulo2{
     margin-top: 10rem;
@@ -19,6 +20,7 @@
     animation: circulo 0.7s infinite;
     position: absolute;
     z-index: 1;
+    cursor: pointer;
 }
 
 .circulo3{
@@ -31,6 +33,7 @@
     animation: circulo 0.7s infinite;
     position: absolute;
     z-index: 1;
+    cursor: pointer;
 }
 .circulo4{
     margin-top: 10rem;
@@ -42,6 +45,7 @@
     animation: circulo 0.7s infinite;
     position: absolute;
     z-index: 1;
+    cursor: pointer;
 }
 .circulo5{
     margin-top: 10rem;
@@ -53,6 +57,7 @@
     animation: circulo 0.7s infinite;
     position: absolute;
     z-index: 1;
+    cursor: pointer;
 }
 .circulo6{
     margin-top: 10rem;
@@ -64,6 +69,7 @@
     animation: circulo 0.7s infinite;
     position: absolute;
     z-index: 1;
+    cursor: pointer;
 }
 
 .escondericono{
@@ -83,51 +89,23 @@
         transform: scale(1.2);
     }
 }
-/* animacion 2 imagenes */
-/* .pito2{
-    width: 20rem;
-    height: 20rem;
-    position: absolute;
-    animation: imagenn 0.7s infinite;
-}
-.pito{
-    width: 20rem;
-    height: 20rem;
-    position: absolute;
-    animation: imagenn1  0.7s infinite;
+
+.carousel-control-next{
+    animation: cubo 0.7s infinite;
+
 }
 
-.imagen{
-margin-top: 24rem;
-    margin-left: 50rem;
-}
-.imagen2
-{
-    margin-top: 24rem;
-    margin-left: 50rem;
-}
-/* animacion 1 */
-@keyframes imagenn {
+@keyframes cubo {
     0%{
         transform: scale(1.2);
+        background-color:  #ffc400;
     }
     50%{
-        transform: scale(1);
+        transform: scale(1.2);
+        background-color:  #ff0000;
     }
     100%{
         transform: scale(1.2);
+        background-color:  #ffc400;
     }
 }
-/* animacion 2 */
-@keyframes imagenn1 {
-    0%{
-        transform: scale(1.2);
-    }
-    50%{
-        transform: scale(1);
-        opacity: .100;
-    }
-    100%{
-        transform: scale(1.2);
-    }
-} 

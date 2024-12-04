@@ -116,10 +116,15 @@ video{
 }
 
 .carousel-control-next{
-    height: 10% !important;
+    width: 4rem;
+    height: 4rem !important;
     margin-top: 23% !important;
+    margin-right: 10%;
+    border-radius: 20rem;
 }
 .carousel-control-prev{
-    height: 10% !important;
+    width: 4rem;
+    height: 4rem !important;
     margin-top: 23% !important;
+    margin-left: 10%;
 }
