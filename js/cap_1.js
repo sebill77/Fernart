@@ -77,7 +77,7 @@ function PrimeraEscena1() {
     if ( e == 1 ){
         FLECHA2.style.display = "none"
         let intervalo = setInterval( () => {
-             if(PrimeraEscena.currentTime > 1){
+             if(PrimeraEscena.currentTime > 7){
                  FLECHA.style.display = "block"
                  console.log("ya sirve flecha 1")
                  clearInterval(intervalo)
@@ -93,7 +93,7 @@ function PrimeraEscena2() {
     SegundaEscena.play()
     if ( e == 2 ){
         let intervalo = setInterval( () => {
-             if(PrimeraEscena.currentTime > 1){
+             if(PrimeraEscena.currentTime > 8){
                  FLECHA.style.display = "block"
                  console.log("ya sirve flecha 2")
                  clearInterval(intervalo)
@@ -108,7 +108,7 @@ function PrimeraEscena3() {
     TerceraEscena.play()
     if ( e == 3 ){
         let intervalo = setInterval( () => {
-             if(PrimeraEscena.currentTime > 1){
+             if(PrimeraEscena.currentTime > 7){
                  FLECHA.style.display = "block"
                  console.log("ya sirve flecha 3")
                  clearInterval(intervalo)
@@ -123,7 +123,7 @@ function PrimeraEscena4() {
     CuartaEscena.play()
     if ( e == 4 ){
         let intervalo = setInterval( () => {
-             if(PrimeraEscena.currentTime > 1){
+             if(PrimeraEscena.currentTime > 6){
                  FLECHA.style.display = "block"
                  console.log("ya sirve flecha 4")
                  clearInterval(intervalo)
@@ -138,7 +138,7 @@ function PrimeraEscena5() {
     QuintaEscena.play()
     if ( e == 5 ){
         let intervalo = setInterval( () => {
-             if(PrimeraEscena.currentTime > 1){
+             if(PrimeraEscena.currentTime > 2){
                  FLECHA.style.display = "block"
                  console.log("ya sirve flecha 5")
                  clearInterval(intervalo)
@@ -153,7 +153,7 @@ function PrimeraEscena6() {
     SextaEscena.play()
     if ( e == 6 ){
         let intervalo = setInterval( () => {
-             if(PrimeraEscena.currentTime > 1){
+             if(PrimeraEscena.currentTime > 4){
                  FLECHA.style.display = "block"
                  console.log("ya sirve flecha 6")
                  clearInterval(intervalo)

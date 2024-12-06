@@ -1,9 +1,9 @@
 .circulo1{
     position: absolute;
-    margin-top: 18%;
-    margin-left: 42%;
-    width: 10rem;
-    height: 10rem;
+    margin-top: 22%;
+    margin-left: 40%;
+    width: 20%;
+    height: 30%;
     border-radius: 50%;
     border: 1.5rem solid #ffe600c5;
     animation: circulo 0.7s infinite;
@@ -11,10 +11,10 @@
     cursor: pointer;
 }
 .circulo2{
-    margin-top: 10rem;
-    margin-left: 26rem;
-    width: 10rem;
-    height: 10rem;
+    margin-top: 22%;
+    margin-left: 40%;
+    width: 20%;
+    height: 30%;
     border-radius: 50%;
     border: 1.5rem solid #ffe600c5;
     animation: circulo 0.7s infinite;
@@ -24,10 +24,10 @@
 }
 
 .circulo3{
-    margin-top: 10rem;
-    margin-left: 26rem;
-    width: 10rem;
-    height: 10rem;
+    margin-top: 22%;
+    margin-left: 40%;
+    width: 20%;
+    height: 30%;
     border-radius: 50%;
     border: 1.5rem solid #ffe600c5;
     animation: circulo 0.7s infinite;
@@ -36,10 +36,10 @@
     cursor: pointer;
 }
 .circulo4{
-    margin-top: 10rem;
-    margin-left: 26rem;
-    width: 10rem;
-    height: 10rem;
+    margin-top: 22%;
+    margin-left: 40%;
+    width: 20%;
+    height: 30%;
     border-radius: 50%;
     border: 1.5rem solid #ffe600c5;
     animation: circulo 0.7s infinite;
@@ -48,10 +48,10 @@
     cursor: pointer;
 }
 .circulo5{
-    margin-top: 10rem;
-    margin-left: 26rem;
-    width: 10rem;
-    height: 10rem;
+    margin-top: 22%;
+    margin-left: 40%;
+    width: 20%;
+    height: 30%;
     border-radius: 50%;
     border: 1.5rem solid #ffe600c5;
     animation: circulo 0.7s infinite;
@@ -60,10 +60,10 @@
     cursor: pointer;
 }
 .circulo6{
-    margin-top: 10rem;
-    margin-left: 26rem;
-    width: 10rem;
-    height: 10rem;
+    margin-top: 22%;
+    margin-left: 40%;
+    width: 20%;
+    height: 30%;
     border-radius: 50%;
     border: 1.5rem solid #ffe600c5;
     animation: circulo 0.7s infinite;
@@ -98,14 +98,14 @@
 @keyframes cubo {
     0%{
         transform: scale(1.2);
-        background-color:  #ffc400;
+        border: 0.5rem solid #ffc400;
     }
     50%{
         transform: scale(1.2);
-        background-color:  #ff0000;
+        border: 0.5rem solid #ffc40000;
     }
     100%{
         transform: scale(1.2);
-        background-color:  #ffc400;
+        border: 0.5rem solid #ffc400;
     }
 }
